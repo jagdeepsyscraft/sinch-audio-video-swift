@@ -8,11 +8,11 @@ sinch-audio-video-swift code is a sample application for app to app calling usin
 
 # steps to run
 
-Register yourself at Sinch.
+* Register yourself at Sinch.
 
-Register your app in Sinch, you'll get the Application Key and Secret.
+* Register your app in Sinch, you'll get the Application Key and Secret.
 
-Paste the Application Key & Secret in initSinchClientWithUserId method of AppDelegate.
+* Paste the Application Key & Secret in initSinchClientWithUserId method of AppDelegate.
 
 Drag and drop frame work, its simple, just download (www.sinch.com/download/) latest framework of Sinch and add it to your exsiting frame works.
 
@@ -33,18 +33,19 @@ Drag and drop frame work, its simple, just download (www.sinch.com/download/) la
 
 # INFO.PLIST
 
-Required background modes
-
-Application plays audio (audio))
-Application provides Voice over IP services (voip)
-Privacy - Microphone Usage Description (NSMicrophoneUsageDescription)
+* Required background modes
+  * Application plays audio (audio))
+  * Application provides Voice over IP services (voip)
+* Privacy - Microphone Usage Description (NSMicrophoneUsageDescription)
+* Privacy - Camera Usage Description (NSCameraUsageDescription)
 
 # Important Changes
 
 do changes in build settings
 
-FRAMEWORK_SEARCH_PATHS = '$(SDKROOT)/System/Library/Frameworks', '.'
-OTHER_LDFLAGS = -ObjC ,-Xlinker ,-lc++
+* FRAMEWORK_SEARCH_PATHS = '$(SDKROOT)/System/Library/Frameworks', '.'
+* OTHER_LDFLAGS = -ObjC ,-Xlinker ,-lc++
 
-I am working on video calling screen to add controls. please feel free to contribute. 
+please feel free to contribute.
+
 # Thank You.
