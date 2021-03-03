@@ -18,7 +18,7 @@ Drag and drop frame work, its simple, just download (www.sinch.com/download/) la
 
 # Frameworks required for calling
 
-*libc++.dylib (libc++.tbd)
+* libc++.dylib (libc++.tbd)
 libz.tbd
 Security.framework
 AVFoundation.framework
