@@ -6,7 +6,7 @@ This repo is created by using help of https://github.com/chhagansingh/Sinch-Call
 
 sinch-audio-video-swift code is a sample application for app to app calling using Sinch framework (https://www.sinch.com/). This application is similar to the application you get while you download Sinch SDK from official website, but this is written in Swift.
 
-Steps to Run this app:
+# steps to run
 
 Register yourself at Sinch.
 
@@ -16,7 +16,8 @@ Paste the Application Key & Secret in initSinchClientWithUserId method of AppDel
 
 Drag and drop frame work, its simple, just download (www.sinch.com/download/) latest framework of Sinch and add it to your exsiting frame works.
 
-Frameworks required for calling
+# Frameworks required for calling
+
 libc++.dylib (libc++.tbd)
 libz.tbd
 Security.framework
@@ -30,28 +31,20 @@ GLKit.framework
 OpenGLES.framework
 QuartzCore.framework
 
-INFO.PLIST
+# INFO.PLIST
+
 Required background modes
 
 Application plays audio (audio))
 Application provides Voice over IP services (voip)
 Privacy - Microphone Usage Description (NSMicrophoneUsageDescription)
 
-CREATING THE SINCLIENT
-var client: SINClient!
-client = Sinch.client(withApplicationKey: "",
-                applicationSecret: "<application secret>",
-                environmentHost: "sandbox.sinch.com",
-                 userId: "<user id>")
-SPECIFYING CAPABILITIES
-        client.setSupportCalling(true)
-STARTING THE SINCH CLIENT
-        client.start()
-        client.startListeningOnActiveConnection()
+# Important Changes
 
-Important Changes
 do changes in build settings
 
 FRAMEWORK_SEARCH_PATHS = '$(SDKROOT)/System/Library/Frameworks', '.'
 OTHER_LDFLAGS = -ObjC ,-Xlinker ,-lc++
 
+I am working on video calling screen to add controls. please feel free to contribute. 
+# Thank You.
