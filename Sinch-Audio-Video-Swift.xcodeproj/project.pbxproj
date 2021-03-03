@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84C97F3625EF49D3000AACB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C97F3525EF49D3000AACB2 /* AppDelegate.swift */; };
+		84C97F3825EF49D3000AACB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C97F3725EF49D3000AACB2 /* SceneDelegate.swift */; };
+		84C97F3A25EF49D3000AACB2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C97F3925EF49D3000AACB2 /* LoginViewController.swift */; };
+		84C97F3D25EF49D3000AACB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C97F3B25EF49D3000AACB2 /* Main.storyboard */; };
+		84C97F3F25EF49D4000AACB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C97F3E25EF49D4000AACB2 /* Assets.xcassets */; };
+		84C97F4225EF49D4000AACB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C97F4025EF49D4000AACB2 /* LaunchScreen.storyboard */; };
+		84C97F5225EF4A87000AACB2 /* SINUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C97F4D25EF4A87000AACB2 /* SINUIViewController.m */; };
+		84C97F5325EF4A87000AACB2 /* incoming.wav in Resources */ = {isa = PBXBuildFile; fileRef = 84C97F4E25EF4A87000AACB2 /* incoming.wav */; };
+		84C97F5425EF4A87000AACB2 /* ringback.wav in Resources */ = {isa = PBXBuildFile; fileRef = 84C97F4F25EF4A87000AACB2 /* ringback.wav */; };
+		84C97F5525EF4A87000AACB2 /* PaddedTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C97F5025EF4A87000AACB2 /* PaddedTextField.m */; };
+		84C97F5825EF4B6F000AACB2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C97F5725EF4B6F000AACB2 /* MainViewController.swift */; };
+		84C97F6025EF5269000AACB2 /* AudioCallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C97F5F25EF5269000AACB2 /* AudioCallViewController.swift */; };
+		84C97F6325EF527A000AACB2 /* VideoCallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C97F6225EF527A000AACB2 /* VideoCallViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84C97F3225EF49D3000AACB2 /* Sinch-Audio-Video-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sinch-Audio-Video-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C97F3525EF49D3000AACB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84C97F3725EF49D3000AACB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		84C97F3925EF49D3000AACB2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		84C97F3C25EF49D3000AACB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84C97F3E25EF49D4000AACB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84C97F4125EF49D4000AACB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84C97F4325EF49D4000AACB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C97F4C25EF4A87000AACB2 /* PaddedTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaddedTextField.h; sourceTree = "<group>"; };
+		84C97F4D25EF4A87000AACB2 /* SINUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SINUIViewController.m; sourceTree = "<group>"; };
+		84C97F4E25EF4A87000AACB2 /* incoming.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = incoming.wav; sourceTree = "<group>"; };
+		84C97F4F25EF4A87000AACB2 /* ringback.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ringback.wav; sourceTree = "<group>"; };
+		84C97F5025EF4A87000AACB2 /* PaddedTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaddedTextField.m; sourceTree = "<group>"; };
+		84C97F5125EF4A87000AACB2 /* SINUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SINUIViewController.h; sourceTree = "<group>"; };
+		84C97F5725EF4B6F000AACB2 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		84C97F5F25EF5269000AACB2 /* AudioCallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioCallViewController.swift; sourceTree = "<group>"; };
+		84C97F6225EF527A000AACB2 /* VideoCallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCallViewController.swift; sourceTree = "<group>"; };
+		84C97F6625EF589A000AACB2 /* BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84C97F2F25EF49D3000AACB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84C97F2925EF49D3000AACB2 = {
+			isa = PBXGroup;
+			children = (
+				84C97F3425EF49D3000AACB2 /* Sinch-Audio-Video-Swift */,
+				84C97F3325EF49D3000AACB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84C97F3325EF49D3000AACB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84C97F3225EF49D3000AACB2 /* Sinch-Audio-Video-Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84C97F3425EF49D3000AACB2 /* Sinch-Audio-Video-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				84C97F3525EF49D3000AACB2 /* AppDelegate.swift */,
+				84C97F3725EF49D3000AACB2 /* SceneDelegate.swift */,
+				84C97F3925EF49D3000AACB2 /* LoginViewController.swift */,
+				84C97F5725EF4B6F000AACB2 /* MainViewController.swift */,
+				84C97F5F25EF5269000AACB2 /* AudioCallViewController.swift */,
+				84C97F6225EF527A000AACB2 /* VideoCallViewController.swift */,
+				84C97F3B25EF49D3000AACB2 /* Main.storyboard */,
+				84C97F3E25EF49D4000AACB2 /* Assets.xcassets */,
+				84C97F4B25EF4A87000AACB2 /* SupportingFile */,
+				84C97F4025EF49D4000AACB2 /* LaunchScreen.storyboard */,
+				84C97F4325EF49D4000AACB2 /* Info.plist */,
+			);
+			path = "Sinch-Audio-Video-Swift";
+			sourceTree = "<group>";
+		};
+		84C97F4B25EF4A87000AACB2 /* SupportingFile */ = {
+			isa = PBXGroup;
+			children = (
+				84C97F6625EF589A000AACB2 /* BridgingHeader.h */,
+				84C97F4E25EF4A87000AACB2 /* incoming.wav */,
+				84C97F4F25EF4A87000AACB2 /* ringback.wav */,
+				84C97F4C25EF4A87000AACB2 /* PaddedTextField.h */,
+				84C97F5025EF4A87000AACB2 /* PaddedTextField.m */,
+				84C97F5125EF4A87000AACB2 /* SINUIViewController.h */,
+				84C97F4D25EF4A87000AACB2 /* SINUIViewController.m */,
+			);
+			path = SupportingFile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84C97F3125EF49D3000AACB2 /* Sinch-Audio-Video-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C97F4625EF49D4000AACB2 /* Build configuration list for PBXNativeTarget "Sinch-Audio-Video-Swift" */;
+			buildPhases = (
+				84C97F2E25EF49D3000AACB2 /* Sources */,
+				84C97F2F25EF49D3000AACB2 /* Frameworks */,
+				84C97F3025EF49D3000AACB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sinch-Audio-Video-Swift";
+			productName = "Sinch-Audio-Video-Swift";
+			productReference = 84C97F3225EF49D3000AACB2 /* Sinch-Audio-Video-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84C97F2A25EF49D3000AACB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					84C97F3125EF49D3000AACB2 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 84C97F2D25EF49D3000AACB2 /* Build configuration list for PBXProject "Sinch-Audio-Video-Swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84C97F2925EF49D3000AACB2;
+			productRefGroup = 84C97F3325EF49D3000AACB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84C97F3125EF49D3000AACB2 /* Sinch-Audio-Video-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84C97F3025EF49D3000AACB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C97F5325EF4A87000AACB2 /* incoming.wav in Resources */,
+				84C97F4225EF49D4000AACB2 /* LaunchScreen.storyboard in Resources */,
+				84C97F5425EF4A87000AACB2 /* ringback.wav in Resources */,
+				84C97F3F25EF49D4000AACB2 /* Assets.xcassets in Resources */,
+				84C97F3D25EF49D3000AACB2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84C97F2E25EF49D3000AACB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C97F5525EF4A87000AACB2 /* PaddedTextField.m in Sources */,
+				84C97F3A25EF49D3000AACB2 /* LoginViewController.swift in Sources */,
+				84C97F6325EF527A000AACB2 /* VideoCallViewController.swift in Sources */,
+				84C97F3625EF49D3000AACB2 /* AppDelegate.swift in Sources */,
+				84C97F5825EF4B6F000AACB2 /* MainViewController.swift in Sources */,
+				84C97F3825EF49D3000AACB2 /* SceneDelegate.swift in Sources */,
+				84C97F5225EF4A87000AACB2 /* SINUIViewController.m in Sources */,
+				84C97F6025EF5269000AACB2 /* AudioCallViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84C97F3B25EF49D3000AACB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C97F3C25EF49D3000AACB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84C97F4025EF49D4000AACB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C97F4125EF49D4000AACB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84C97F4425EF49D4000AACB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84C97F4525EF49D4000AACB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84C97F4725EF49D4000AACB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Sinch-Audio-Video-Swift",
+					"$(SDKROOT)/System/Library/Frameworks",
+				);
+				INFOPLIST_FILE = "Sinch-Audio-Video-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-Xlinker",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Syscraft-Information-System.Sinch-Audio-Video-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/admin/Desktop/Sinch-Audio-Video-Swift/Sinch-Audio-Video-Swift/SupportingFile/BridgingHeader.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		84C97F4825EF49D4000AACB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Sinch-Audio-Video-Swift",
+					"$(SDKROOT)/System/Library/Frameworks",
+				);
+				INFOPLIST_FILE = "Sinch-Audio-Video-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-Xlinker",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Syscraft-Information-System.Sinch-Audio-Video-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/admin/Desktop/Sinch-Audio-Video-Swift/Sinch-Audio-Video-Swift/SupportingFile/BridgingHeader.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84C97F2D25EF49D3000AACB2 /* Build configuration list for PBXProject "Sinch-Audio-Video-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C97F4425EF49D4000AACB2 /* Debug */,
+				84C97F4525EF49D4000AACB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84C97F4625EF49D4000AACB2 /* Build configuration list for PBXNativeTarget "Sinch-Audio-Video-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C97F4725EF49D4000AACB2 /* Debug */,
+				84C97F4825EF49D4000AACB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84C97F2A25EF49D3000AACB2 /* Project object */;
+}
