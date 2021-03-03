@@ -1,6 +1,6 @@
 # sinch-audio-video-swift
 
-
+![alt text](https://cdn1.bbcode0.com/uploads/2021/3/3/5c33cfe78bac4454e8e45032634d5b47-full.png)
 
 This repo is created by using help of https://github.com/chhagansingh/Sinch-Calling-App-to-App-swift-4 I have added Swift 5 Support with Audio & Video Calling Controller Sepreate. 
 
