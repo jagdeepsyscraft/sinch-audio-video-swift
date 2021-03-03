@@ -19,17 +19,17 @@ Drag and drop frame work, its simple, just download (www.sinch.com/download/) la
 # Frameworks required for calling
 
 * libc++.dylib (libc++.tbd)
-libz.tbd
-Security.framework
-AVFoundation.framework
-AudioToolbox.framework
-VideoToolbox.framework
-CoreMedia.framework
-CoreVideo.framework
-CoreImage.framework
-GLKit.framework
-OpenGLES.framework
-QuartzCore.framework
+* libz.tbd
+* Security.framework
+* AVFoundation.framework
+* AudioToolbox.framework
+* VideoToolbox.framework
+* CoreMedia.framework
+* CoreVideo.framework
+* CoreImage.framework
+* GLKit.framework
+* OpenGLES.framework
+* QuartzCore.framework
 
 # INFO.PLIST
 
